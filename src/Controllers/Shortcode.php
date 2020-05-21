@@ -78,7 +78,7 @@ class Shortcode
 		// clear cache and get the last modified file time
 		clearstatcache(true, WPBP_PATH . 'assets/dist/js/frontend.min.js');
 		$js_filemtime = filemtime(WPBP_PATH . 'assets/dist/js/frontend.min.js');
-		wp_register_script('wpbp-scripts', WPBP_PATH . 'assets/dist/js/frontend.min.js?' . $js_filemtime, ['jquery'], WPBP_VERSION, true);
+		wp_register_script('wpbp-scripts', WPBP_URL . 'assets/dist/js/frontend.min.js?' . $js_filemtime, ['jquery'], WPBP_VERSION, true);
 
 		$ajax_url = admin_url('admin-ajax.php');
 		$data = [
