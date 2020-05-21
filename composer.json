@@ -1,0 +1,27 @@
+{
+    "name": "pixolette/wp-boilerplate-plugin",
+    "description": "WordPress Boilerplate Plugin",
+    "autoload": {
+        "psr-4": {
+            "Wpbp\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "keywords": [
+        "WordPress",
+        "WordPress Plugin Example",
+        "WordPress Starting Plugin",
+        "WordPress Boilerplate",
+        "WordPress Boilerplate Plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ion Vrinceanu",
+            "homepage": "https://vrinceanu.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}

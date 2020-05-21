@@ -1,0 +1,32 @@
+{
+    "name": "wp-boilerplate-plugin",
+    "version": "1.0.0",
+    "description": "WordPress Boilerplate Plugin",
+    "private": "true",
+    "keywords": [],
+    "author": "Ion Vrinceanu | Pixolette",
+    "homepage": "https://github.com/ionvv/wp-boilerplate-plugin/",
+    "scripts": {
+        "watch": "NODE_ENV=development webpack --mode=development --watch --config webpack.config.js",
+        "dev": "NODE_ENV=development webpack --mode=development --config webpack.config.js",
+        "prod": "NODE_ENV=production webpack --mode=production --config webpack.config.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "file-loader": "^6.0.0",
+        "grunt": "^1.0.4",
+        "grunt-sass": "^3.0.2",
+        "grunt-zip": "^0.18.2",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.12.0",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
