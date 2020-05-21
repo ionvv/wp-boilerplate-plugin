@@ -24,6 +24,16 @@ You'll need to create autoload files for php classes and install the npm package
 composer install && npm install
 ```
 
+### Javascript Files
+
+There are 2 files used as sources: `assets/js/backend.js` and `assets/js/frontend.js`. You can either write js code in these files or requires files as follows: `require('./scripts/backend-scripts.js');` Babel core package is used to convert es6+ js code to be compatible with IE10. If you need to target a lower version, feel free to change it in the `webpack.config.js` file.
+
+### SCSS Files
+
+`mini-css-extract-plugin` is used to extract CSS code from js files to separate CSS files when `npm run prod` is executed. When `dev` and `watch` commands are executed, the SCSS code will be converted to CSS and injected directly in the page.
+
+### Building JS and CSS files
+
 To watch for live changes and build JS and CSS files in real time, run the following command in terminal:
 ```
 npm run watch
