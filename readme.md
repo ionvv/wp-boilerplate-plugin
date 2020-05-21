@@ -41,6 +41,12 @@ To build minified JS and CSS files run the following command in terminal:
 npm run prod
 ```
 
+## Translations
+
+Replace all the `wp-boilerplate-plugin-text-domain` text domain with the one to match your plugin text domain.
+
+Open the languages/wp-boilerplate-plugin.pot file in the Poedit app. Go to Catalogue -> Properties and change the Project name and version. Go to Catalogue -> Update from sources and then click on Save as .po file. Open the .po file and edit the translations to the needed language. Save as .mo file. For example, if you're translating to french, you'll have `languages/wp-boilerplate-plugin-fr_FR.po` and `languages/wp-boilerplate-plugin-fr_FR.mo`
+
 ## Changelog
 
 ### 1.0.0
