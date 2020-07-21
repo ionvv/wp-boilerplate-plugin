@@ -5,8 +5,6 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-use Wpbp\Models\Shortcode as ShortcodeModel;
-
 /**
 * Class Shortcode
 *

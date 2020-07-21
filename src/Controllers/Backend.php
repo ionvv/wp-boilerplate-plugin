@@ -5,8 +5,6 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-use Wpptd\Models\Shortcode as ShortcodeModel;
-
 /**
 * Class Backend
 *
